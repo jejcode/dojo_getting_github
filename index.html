@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Github</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form onsubmit="get_api_data()" id="form_data">
+        <div>
+            <input class="form_data" type="checkbox" name="avatar_url" id="avatar_url" value-="avatar_url">
+            <label for="avatar_url">Avatar URL</label>
+        </div>
+        <div>
+            <input class="form_data" type="checkbox" name="followers" id="followers" value-="followers">
+            <label for="followers">Followers</label>
+        </div>
+        <div>
+            <input class="form_data" type="checkbox" name="login" id="login" value-="login">
+            <label for="login">Login</label>
+
+        </div>
+        <div>
+            <input class="form_data" type="checkbox" name="name" id="name" value-="name">
+            <label for="name">Name</label>
+
+        </div>
+        <div>
+            <input class="form_data" type="checkbox" name="url" id="url" value-="url">
+            <label for="url">URL</label>
+
+        </div>
+        <input type="submit" value="Click to Git User">
+        <!-- <button onclick="get_api_data()">Click to Git User</button> -->
+    </form>
+    <div id="avatar">
+    </div>
+    <div id="info">
+        
+    </div>
+    
+</body>
+</html>
